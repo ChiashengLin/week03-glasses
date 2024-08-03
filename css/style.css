@@ -51,7 +51,7 @@ body {
 }
 
 .mt-32{
-    margin-top: 32px;
+    margin-top: 28px;
 }
 
 .mt-48 {
@@ -501,7 +501,6 @@ input::placeholder{
     }
 }
 
-
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -527,8 +526,6 @@ input::placeholder{
     }
 }
 
-
-
 @media (max-width:576px) {
     
     .col-sm-12 {
@@ -539,7 +536,6 @@ input::placeholder{
         flex-wrap: wrap;
     }
 }
-
 
 .w-50{
     width: 50%;
@@ -568,6 +564,10 @@ input::placeholder{
     .copyright{
         margin-top: 20px;
         flex-wrap: wrap;
+    }
+
+    .others a{
+        margin-left: 0;
     }
 }
 
