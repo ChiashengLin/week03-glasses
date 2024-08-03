@@ -106,6 +106,10 @@ body {
     padding-top: 80px;
 }
 
+.pr-8{
+    padding-right: 8px;
+}
+
 .pb-32{
     padding-bottom: 32px;
 }
@@ -547,9 +551,7 @@ input::placeholder{
     }
 }
 
-
 @media (max-width:576px) {
-    
     .inform .nav {
         display: none;
     }
