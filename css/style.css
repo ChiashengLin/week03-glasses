@@ -195,6 +195,29 @@ body {
     display:flex;
 }
 
+@media (max-width:992px) {
+    .classicList{
+        display:block;
+    }
+    .classicList li{
+        margin: auto;
+    }
+    .classicList .mw-50{
+        max-width: 50%;
+    }
+    
+ }
+
+@media (max-width:992px) {
+    .pl-24{
+        padding-left:12px;
+    }
+    
+    .pr-24{
+        padding-right:12px;
+    }
+ }
+
 .block{
     display: block;
 }
