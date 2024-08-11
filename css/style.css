@@ -29,10 +29,11 @@ a:hover{
 
 .btn{
     border:none;
+    cursor: pointer;
 }
 
 body {
-    font-family: sans-serif, "Bruno Ace SC" ;
+    font-family: Noto Sans TC, "Roboto" ;
     /* 英文字型放前面才不會被中文字型影響 */
     font-weight: 400;
     font-style: normal;
@@ -97,6 +98,16 @@ body {
 .pr-24{
     padding-right:24px;
 }
+
+@media (max-width:992px) {
+    .pl-24{
+        padding-left:12px;
+    }
+    
+    .pr-24{
+        padding-right:12px;
+    }
+ }
 
 .pt-60{
     padding-top: 60px;
@@ -220,6 +231,12 @@ body {
     }
  }
 
+ @media (max-width:992px) {
+    .container{
+        padding: 0;
+    }
+ }
+
 @media (max-width:576px) {
     .container{
         max-width: 372px;/* 4欄*69+24間距*3+12*2內距 */
@@ -300,6 +317,8 @@ body {
 
 .category a{
     color: #fff;
+    display: block;
+    width: 100%;
 }
 
 @media (max-width: 576px){
@@ -482,6 +501,12 @@ input::placeholder{
     margin-right: 32px;
 }
 
+@media (max-width:992px) {
+    .social img{
+        margin-right: 18px;
+    }
+}
+
 @media (max-width:576px) {
 
     .social{
@@ -496,7 +521,6 @@ input::placeholder{
     }
 
     .footer-ct{
-        justify-content: initial;
         padding-top:0;
     }
 }
